@@ -1,7 +1,7 @@
 body {
 	max-width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 0 auto;
+	font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -13,20 +13,60 @@ header {
 	width: 100%;
 }
 
-.header_section {
-	width: 100%;
-	display: flex;
-}
-
 .logo_section {
 	width: 50%;
+	/*margin-left: 10px;*/
+}
+
+.header_section {
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
 }
 
 .title_section {
 	width: 50%;
+	text-align: right;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.title_section h1 {
+	font-size: 3em;
+}
+
+.title_section h2 {
+	font-size: 1.5em;
+}
+
+.hero_section {
+	margin-bottom: 10px;
+}
+
+.featured_section {
+	margin-bottom: 10px;
+}
+
+.featured_section h2 {
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .featured_list {
 	display: flex;
 	justify-content: space-between;
+}
+
+.featured_item {
+	text-align: center;
+}
+
+.featured_item p {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.featured_item a {
+	text-decoration: none;
 }
