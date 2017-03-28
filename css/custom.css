@@ -2,6 +2,7 @@ body {
 	max-width: 960px;
 	margin: 0 auto 0 auto;
 	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
 }
 
 .container {
@@ -34,6 +35,7 @@ header {
 
 .title_section h1 {
 	font-size: 3em;
+	font-weight: 300;
 }
 
 .title_section h2 {
@@ -51,6 +53,7 @@ header {
 .featured_section h2 {
 	font-size: 2em;
 	margin-bottom: 10px;
+	color: #7d97ad;
 }
 
 .featured_list {
@@ -65,8 +68,10 @@ header {
 .featured_item p {
 	font-size: 2em;
 	text-transform: uppercase;
+	font-weight: 300;
 }
 
 .featured_item a {
 	text-decoration: none;
+	color: inherit;
 }
