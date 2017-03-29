@@ -75,3 +75,9 @@ header {
 	text-decoration: none;
 	color: inherit;
 }
+
+.image_container {
+	max-width: 300px;
+	max-height: 200px;
+	overflow: hidden;
+}
