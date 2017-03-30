@@ -15,7 +15,7 @@ header {
 }
 
 .logo_section {
-	width: 50%;
+	/*width: 50%;*/
 	/*margin-left: 10px;*/
 }
 
@@ -27,7 +27,7 @@ header {
 }
 
 .title_section {
-	width: 50%;
+	/*width: 50%;*/
 	text-align: right;
 	text-transform: uppercase;
 	margin-right: 10px;
@@ -58,6 +58,7 @@ header {
 
 .featured_list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -74,10 +75,4 @@ header {
 .featured_item a {
 	text-decoration: none;
 	color: inherit;
-}
-
-.image_container {
-	max-width: 300px;
-	max-height: 200px;
-	overflow: hidden;
 }
