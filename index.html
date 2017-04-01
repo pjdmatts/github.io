@@ -31,7 +31,13 @@
 
 		<main>
 			<section class="hero_section">
-				<img src="resources/images/docksPic2.png" alt="Bristol Docks">
+				<picture>
+					<source media="(min-width: 960px)" srcset="images/docksPic2-960_large_1x.png">
+  				<source media="(min-width: 768px)" srcset="images/docksPic2-768medium.png">
+					<source media="(min-width: 426px)" srcset="images/docksPic2-426small.png">
+					<img src="images/docksPic2-960_large_1x.png" alt="Bristol Docks">
+				</picture>
+
 			</section>
 
 			<section class="featured_section">
@@ -39,21 +45,21 @@
 				<div class="featured_list">
 					<div class="featured_item">
 						<div class="image_container">
-							<img src="resources/images/movie_zoomed3.png" alt="A screenshot of the movie page">
+							<img src="images/movie_zoomed-medium.png" alt="A screenshot of the movie page">
 						</div>
 						<p>Monkey Beads</p>
 						<a href="https://github.com/pjdmatts/monkey_beads">https://github.com/pjdmatts/monkey_beads</a>
 					</div>
 					<div class="featured_item">
 						<div class="image_container">
-							<img src="resources/images/woody.png" alt="App Image">
+							<img src="images/woody-medium.png" alt="App Image">
 						</div>
 						<p>Woody</p>
 						<a href="https:/github.com/udacity/appify">https:/github.com/udacity/appify</a>
 					</div>
 					<div class="featured_item">
 						<div class="image_container">
-							<img src="resources/images/mossy.png" alt="App Image">
+							<img src="images/mossy-medium.png" alt="App Image">
 						</div>
 						<p>Mossy</p>
 						<a href="https:/github.com/udacity/appify">https:/github.com/udacity/appify</a>
