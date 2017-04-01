@@ -31,6 +31,7 @@ header {
 	text-align: right;
 	text-transform: uppercase;
 	margin-right: 10px;
+	flex-grow: 2;
 }
 
 .title_section h1 {
@@ -40,6 +41,7 @@ header {
 
 .title_section h2 {
 	font-size: 1.5em;
+	margin: 10px 0 10px 0;
 }
 
 .hero_section {
@@ -47,7 +49,7 @@ header {
 }
 
 .featured_section {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .featured_section h2 {
@@ -75,4 +77,8 @@ header {
 .featured_item a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.image_container {
+	margin: 10px 0 10px 0;
 }
