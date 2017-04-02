@@ -69,7 +69,7 @@ header {
 }
 
 .featured_item p {
-	font-size: 2em;
+	font-size: 1.8em;
 	text-transform: uppercase;
 	font-weight: 300;
 }
@@ -81,4 +81,9 @@ header {
 
 .image_container {
 	margin: 10px 0 10px 0;
+}
+
+.credits p {
+	margin-top: 10px;
+	font-size: 0.8em;
 }
