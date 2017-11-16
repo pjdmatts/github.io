@@ -35,6 +35,11 @@ header {
 	margin: 10px 0 10px 0;
 }
 
+.nav_section a {
+    text-decoration: none;
+    color: #999;
+}
+
 .hero_section {
 	margin-bottom: 10px;
 }
