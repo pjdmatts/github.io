@@ -35,9 +35,19 @@ header {
 	margin: 10px 0 10px 0;
 }
 
+.nav_section {
+}
+
 .nav_section a {
     text-decoration: none;
     color: #999;
+    margin-right: 10px;
+}
+
+.nav_section a:last-of-type {
+    text-decoration: none;
+    color: #999;
+    margin-right: 0px;
 }
 
 .hero_section {
