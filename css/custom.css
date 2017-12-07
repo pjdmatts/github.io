@@ -1,42 +1,41 @@
 body {
-	max-width: 960px;
-	margin: 0 auto 0 auto;
-	font-family: 'Lato', sans-serif;
-	color: #2d3c49;
-	display: flex;
-	flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header {
-	width: 100%;
+    width: 100%;
 }
 
 .header_section {
-	width: 100%;
-	margin-top: 10px;
-	display: flex;
-	align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .title_section {
-	text-align: right;
-	text-transform: uppercase;
-	margin-right: 10px;
-	flex-grow: 2;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 10px;
+    flex-grow: 2;
 }
 
 .title_section h1 {
-	font-size: 3em;
-	font-weight: 300;
+    font-size: 3em;
+    font-weight: 300;
 }
 
 .title_section h2 {
-	font-size: 1.5em;
-	margin: 10px 0 10px 0;
+    font-size: 1.5em;
+    margin: 10px 0 10px 0;
 }
 
-.nav_section {
-}
+.nav_section {}
 
 .nav_section a {
     text-decoration: none;
@@ -51,45 +50,54 @@ header {
 }
 
 .hero_section {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .featured_section {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .featured_section h2 {
-	font-size: 2em;
-	margin-bottom: 10px;
-	color: #7d97ad;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #7d97ad;
 }
 
 .featured_list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .featured_item {
-	text-align: center;
+    text-align: center;
 }
 
 .featured_item p {
-	font-size: 1.8em;
-	text-transform: uppercase;
-	font-weight: 300;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .featured_item a {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .image_container {
-	margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 .credits p {
-	margin-top: 10px;
-	font-size: 0.8em;
+    font-size: 0.8em;
+}
+
+.Site {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
