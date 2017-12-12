@@ -123,10 +123,28 @@ header {
     font-weight: bold;
 }
 
+.contact_section h2 {
+    font-weight: bold;
+}
+
 .projects {
     margin-top: 10px;
 }
 
+.contact {
+    margin-top: 10px;
+}
+
 .projects ul {
+    margin-top: 10px;
+}
+
+.projects li {
+    margin: 10px 0 10px 0;
+}
+
+.projects li p {
+    margin-left: 10px;
+    font-style: italic;
     margin-top: 10px;
 }
