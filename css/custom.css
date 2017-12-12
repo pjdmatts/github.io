@@ -101,3 +101,32 @@ header {
 .Site-content {
   flex: 1;
 }
+
+.about {
+    margin-top: 10px;
+}
+
+.about h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.about p {
+    font-style: italic;
+}
+
+.about_section h2 {
+    font-weight: bold;
+}
+
+.project_section h2 {
+    font-weight: bold;
+}
+
+.projects {
+    margin-top: 10px;
+}
+
+.projects ul {
+    margin-top: 10px;
+}
