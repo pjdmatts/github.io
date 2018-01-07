@@ -111,6 +111,12 @@ header {
     margin-bottom: 5px;
 }
 
+.about li {
+    margin-left: 10px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
 .about p {
     font-style: italic;
 }
