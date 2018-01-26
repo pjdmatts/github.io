@@ -112,13 +112,20 @@ header {
 }
 
 .about li {
-    margin-left: 10px;
+    margin-left: 30px;
     font-style: italic;
     margin-top: 10px;
 }
 
-.about p {
-    font-style: italic;
+.name {
+    font-style: normal;
+    font-weight: bold;
+    margin: 20px 5px 5px 5px;
+}
+
+.me {
+    font-style: normal;
+    margin: 10px 5px 5px 5px;
 }
 
 .about_section h2 {
@@ -139,6 +146,10 @@ header {
 
 .contact {
     margin-top: 10px;
+}
+
+.contact li {
+    margin: 10px 5px 5px 30px;
 }
 
 .projects ul {
