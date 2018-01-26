@@ -36,6 +36,19 @@
 		font-size: 1.5em;
 	}
 
+    .about_section h2 {
+		font-size: 1.5em;
+	}
+
+    .contact_section h2 {
+		font-size: 1.5em;
+	}
+
+    .project_section h2 {
+		font-size: 1.5em;
+	}
+
+
 	.featured_item p {
 		font-size: 1.5em;
 	}
@@ -62,6 +75,15 @@
 		font-size: 0.75em;
 	}
 	.featured_section h2 {
+		font-size: 1em;
+	}
+    .about_section h2 {
+		font-size: 1em;
+	}
+    .project_section h2 {
+		font-size: 1em;
+	}
+    .contact_section h2 {
 		font-size: 1em;
 	}
 	.featured_item p {

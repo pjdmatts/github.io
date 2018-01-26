@@ -106,6 +106,12 @@ header {
     margin-top: 10px;
 }
 
+.about_section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #7d97ad;
+}
+
 .about h3 {
     font-weight: bold;
     margin-bottom: 5px;
@@ -115,6 +121,10 @@ header {
     margin-left: 30px;
     font-style: italic;
     margin-top: 10px;
+}
+
+.about ul {
+    margin-top: 20px;
 }
 
 .name {
@@ -128,24 +138,37 @@ header {
     margin: 10px 5px 5px 5px;
 }
 
-.about_section h2 {
+.skills {
+    margin: 20px 5px 5px 5px;
+}
+
+.skills span {
     font-weight: bold;
 }
 
 .project_section h2 {
-    font-weight: bold;
-}
-
-.contact_section h2 {
-    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #7d97ad;
 }
 
 .projects {
     margin-top: 10px;
 }
 
+.projects li {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
 .contact {
     margin-top: 10px;
+}
+
+.contact_section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #7d97ad;
 }
 
 .contact li {
@@ -154,10 +177,6 @@ header {
 
 .projects ul {
     margin-top: 10px;
-}
-
-.projects li {
-    margin: 10px 0 10px 0;
 }
 
 .projects li p {
