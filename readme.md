@@ -17,4 +17,4 @@ Dowload the files from [this repository](https://github.com/pjdmatts/github.io)
 
 ### License
 
-* [MIT License](../blob/master/LICENSE)
+* [MIT License](https://github.com/pjdmatts/github.io/blob/master/LICENSE)
